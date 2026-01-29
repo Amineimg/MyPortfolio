@@ -1,5 +1,8 @@
 import React, { useContext } from "react";
 import './Header.css';
+// Language flag
+import EnLogo from '../../img/en.png';
+import FranceLogo from '../../img/france.png';
 /* ReactScroll */
 import { Link } from 'react-scroll';
 
@@ -35,7 +38,7 @@ const Header = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/">
-                <p>=(<span>NAHUEL61920</span>)=></p>
+                <p>=(<span>IMEGHRI2226</span>)=></p>
             </NavLink>
 
             <nav className="navbar">
@@ -70,8 +73,8 @@ const Header = () => {
                     />
                 </Link>
                 <div id="buttons">
-                    <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
+                    <img onClick={() => idioma.selectLanguage('en-US')} src={EnLogo} alt="EEUU" />
+                    <img onClick={() => idioma.selectLanguage('fr-FR')} src={FranceLogo} alt="FR" />
                 </div>
             </nav>
             <div className="switch" id="switch">

@@ -57,7 +57,7 @@ const Project = () => {
                 defaultMessage='websites'
               />
             </NavLink>
-            <NavLink to="/project/app" offset={-150} duration={500}>
+            {/* <NavLink to="/project/app" offset={-150} duration={500}>
               Apps
             </NavLink>
             <NavLink to="/project/game" offset={-150} duration={500}>
@@ -65,7 +65,7 @@ const Project = () => {
                 id='games'
                 defaultMessage='games'
               />
-            </NavLink>
+            </NavLink> */}
           </nav>
         </section>
 
@@ -77,12 +77,12 @@ const Project = () => {
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
-              <img src={proyectsImg(`./proyecto-14.jpg`)} alt="" className="projects__img" />
+              <img src={proyectsImg(`./heroSection.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
-              <img src={proyectsImg(`./proyecto-15.jpg`)} alt="" className="projects__img" />
+              <img src={proyectsImg(`./rantelcar1.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
@@ -115,7 +115,7 @@ const Project = () => {
               <img src={proyectsImg(`./proyecto-9.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a onClick={() => cambiarEstadoModal8(!estadoModal8)}>
               <img src={proyectsImg(`./proyecto-8.jpg`)} alt="" className="projects__img" />
             </a>
@@ -124,7 +124,7 @@ const Project = () => {
             <a onClick={() => cambiarEstadoModal7(!estadoModal7)}>
               <img src={proyectsImg(`./proyecto-7.jpg`)} alt="" className="projects__img" />
             </a>
-          </div>
+          </div> */}
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal6(!estadoModal6)}>
               <img src={proyectsImg(`./proyecto-6.jpg`)} alt="" className="projects__img" />
@@ -135,11 +135,11 @@ const Project = () => {
               <img src={proyectsImg(`./proyecto-5.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
               <img src={proyectsImg(`./proyecto-3.jpg`)} alt="" className="projects__img" />
             </a>
-          </div>
+          </div> */}
         </section>
       </main>
 
@@ -191,18 +191,18 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-14-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={proyectsImg(`./heroSection.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id='projects-info-14-p1'
-                  defaultMessage='Justice, page created for law firm.'
+                  defaultMessage='ElectroZoom, e-commerce website created for an electronics shop.'
                 />
               </p>
               <p>
                 <FormattedMessage
                   id='projects-info-14-p2'
-                  defaultMessage='Focused on showing the client the value, experience and professionalism of the lawyers they can hire, choosing the category of their specific case.'
+                  defaultMessage='Focused on offering customers value, quality, and reliability when purchasing tech products online, allowing them to explore categories, compare items, and buy securely with fast delivery.'
                 />
               </p>
               <div className="eins-modal-text-2">
@@ -216,11 +216,11 @@ const Project = () => {
                   />
                 </span>
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -234,22 +234,22 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-15-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={proyectsImg(`./rentalCars.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id='projects-info-15-p1'
-                  defaultMessage='Magical Effect is a portfolio created for a video development agency.'
+                  defaultMessage='Rental Cars Marrakech, website created for a car rental agency in Marrakech.'
                 />
               </p>
               <p>
                 <FormattedMessage
                   id='projects-info-15-p2'
-                  defaultMessage='It shows the projects carried out over the years for different types of clients, names their services and years of experience in the industry.'
+                  defaultMessage='Focused on providing customers with a simple and secure way to book cars online, highlighting the agency’s reliability, diverse fleet, and affordable prices.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/Magical-Effect/" target="_blank">https://magicaleffect.com</a>
+                <span>Link:</span> <a href="https://github.com/Amineimg/RentalCar.git" target="_blank">https://RentalCar.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -260,9 +260,9 @@ const Project = () => {
                 </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -519,7 +519,7 @@ const Project = () => {
         </div>
       </Modal>
 
-      <Modal
+      {/* <Modal
         estado={estadoModal8}
         cambiarEstado={cambiarEstadoModal8}
       >
@@ -559,9 +559,9 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
-      <Modal
+      {/* <Modal
         estado={estadoModal7}
         cambiarEstado={cambiarEstadoModal7}
       >
@@ -600,7 +600,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
       <Modal
         estado={estadoModal6}
@@ -687,7 +687,7 @@ const Project = () => {
         </div>
       </Modal>
 
-      <Modal
+      {/* <Modal
         estado={estadoModal3}
         cambiarEstado={cambiarEstadoModal3}
       >
@@ -725,7 +725,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
       <ScrollToTop />
 

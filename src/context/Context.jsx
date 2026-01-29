@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import MensajeIngles from './../language/en.json';
-import MensajeEspañol from './../language/es.json';
+import MensajeFrance from './../language/fr.json';
 import {IntlProvider} from 'react-intl';
 
 const langContext = React.createContext();
@@ -14,8 +14,8 @@ const LangProvider = ({children}) => {
 	if(lang){
 		localePorDefecto = lang
 
-		if(lang === 'es-ES'){
-			mensajesPorDefecto = MensajeEspañol;
+		if(lang === 'fr-FR'){
+			mensajesPorDefecto = MensajeFrance;
 		} else if(lang === 'en-US'){
 			mensajesPorDefecto = MensajeIngles;
 		} else {
@@ -29,10 +29,10 @@ const LangProvider = ({children}) => {
 
     const selectLanguage = (language) =>{
         switch (language) {
-            case 'es-ES':
-                setMensaje(MensajeEspañol);
-                setLocale('es-ES');
-                localStorage.setItem('lang', 'es-ES');
+            case 'fr-FR':
+                setMensaje(MensajeFrance);
+                setLocale('fr-FR');
+                localStorage.setItem('lang', 'fr-FR');
                 break;
             case 'en-US':
                 setMensaje(MensajeIngles);
