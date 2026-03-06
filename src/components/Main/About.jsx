@@ -119,6 +119,10 @@ const About = () => (
                 <h4>Back-End</h4>
                 <div className="skill">
                     <div>
+                        <img alt="Spring boot" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+                        <h5>Spring Boot</h5>
+                    </div>
+                    <div>
                         <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
                         <h5>NodeJs</h5>
                     </div>
@@ -226,5 +230,6 @@ const About = () => (
         </div>
     </section>
 );
+
 
 export default React.memo(About);
