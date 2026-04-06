@@ -90,16 +90,16 @@ const About = () => (
                 <h4>Front-End</h4>
                 <div className="skill">
                     <div>
-                        <img alt="HTML" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/master/icons/html5/html5-original.svg" />
+                        <img alt="HTML" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                         <h5>HTML</h5>
                     </div>
                     <div>
-                        <img alt="CSS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/master/icons/css3/css3-original.svg" />
+                        <img alt="CSS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                         <h5>CSS</h5>
                     </div>
                    
                     <div>
-                        <img alt="Js" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
+                        <img alt="Js" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                         <h5>JavaScript</h5>
                     </div>
                     <div>
