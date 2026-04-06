@@ -178,22 +178,21 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-5.jpg`)}
+                            src={proyectImg(`./resturant.png`)}
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Premier Food</h3>
+                            <h3>Resturant</h3>
                             <p>
                                 Fast food
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
+                                react js
+                                <span> -</span> Tailwind css
                                 <span> -</span> Sass
                             </p>
-                            <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://amineimg.github.io/MyPortfolio/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/Amineimg/MyPortfolio/" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     {/* <SwiperSlide className='caja'>

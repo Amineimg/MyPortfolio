@@ -125,14 +125,14 @@ const Project = () => {
               <img src={proyectsImg(`./proyecto-7.jpg`)} alt="" className="projects__img" />
             </a>
           </div> */}
-          <div className="projects__item">
+          {/* <div className="projects__item">
             <a onClick={() => cambiarEstadoModal6(!estadoModal6)}>
               <img src={proyectsImg(`./proyecto-6.jpg`)} alt="" className="projects__img" />
             </a>
-          </div>
+          </div> */}
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal5(!estadoModal5)}>
-              <img src={proyectsImg(`./proyecto-5.jpg`)} alt="" className="projects__img" />
+              <img src={proyectsImg(`./resturant.png`)} alt="" className="projects__img" />
             </a>
           </div>
           {/* <div className="projects__item">
@@ -650,12 +650,12 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-5-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={proyectsImg(`./resturant.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
                   id='projects-info-5-p1'
-                  defaultMessage='PremierFood, page created for the sale of fast food.'
+                  defaultMessage='Resturant, a website for a fictional restaurant.'
                 />
               </p>
               <p>
@@ -665,7 +665,7 @@ const Project = () => {
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/PremierFood" target="_blank">https://premierfood.com</a>
+                <span>Link:</span> <a href="https://boustan-resturant.vercel.app/" target="_blank">https://boustan-resturant.vercel.app/</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -675,10 +675,8 @@ const Project = () => {
                   />
                 </span>
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
                 </div>
               </div>
