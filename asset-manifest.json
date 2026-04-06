@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.fc25fe1a.css",
-    "main.js": "/MyPortfolio/static/js/main.7ea2d599.js",
+    "main.js": "/MyPortfolio/static/js/main.8296b0b1.js",
     "static/js/787.ea8d651f.chunk.js": "/MyPortfolio/static/js/787.ea8d651f.chunk.js",
     "static/media/me.png": "/MyPortfolio/static/media/me.29ce40e6e4d8955bea58.png",
     "static/media/Thumbs.db": "/MyPortfolio/static/media/Thumbs.735170b30af6b4c4247f.db",
+    "static/media/resturant.png": "/MyPortfolio/static/media/resturant.6110b36392969ad2ce07.png",
     "static/media/proyecto-app-17-com.png": "/MyPortfolio/static/media/proyecto-app-17-com.1cacb50e9e33a1ece5a4.png",
     "static/media/proyecto-app-17.png": "/MyPortfolio/static/media/proyecto-app-17.1fdc99f421c0d630d405.png",
     "static/media/rantelcar1.png": "/MyPortfolio/static/media/rantelcar1.b50c9ff010aec16a39d6.png",
@@ -62,11 +63,11 @@
     "static/media/proyecto-app-2.jpg": "/MyPortfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.fc25fe1a.css.map": "/MyPortfolio/static/css/main.fc25fe1a.css.map",
-    "main.7ea2d599.js.map": "/MyPortfolio/static/js/main.7ea2d599.js.map",
+    "main.8296b0b1.js.map": "/MyPortfolio/static/js/main.8296b0b1.js.map",
     "787.ea8d651f.chunk.js.map": "/MyPortfolio/static/js/787.ea8d651f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc25fe1a.css",
-    "static/js/main.7ea2d599.js"
+    "static/js/main.8296b0b1.js"
   ]
 }
