@@ -191,8 +191,8 @@ const Project = () => {
                                 <span> -</span> Tailwind css
                                 <span> -</span> Sass
                             </p>
-                            <a href="https://amineimg.github.io/MyPortfolio/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Amineimg/MyPortfolio/" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://boustan-resturant.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/Amineimg/boustanResturant" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     {/* <SwiperSlide className='caja'>
