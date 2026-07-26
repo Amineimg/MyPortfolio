@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.fc25fe1a.css",
-    "main.js": "/MyPortfolio/static/js/main.26631cfe.js",
+    "main.js": "/MyPortfolio/static/js/main.b4975a91.js",
     "static/js/787.ea8d651f.chunk.js": "/MyPortfolio/static/js/787.ea8d651f.chunk.js",
     "static/media/me.png": "/MyPortfolio/static/media/me.29ce40e6e4d8955bea58.png",
     "static/media/Thumbs.db": "/MyPortfolio/static/media/Thumbs.735170b30af6b4c4247f.db",
@@ -19,8 +19,8 @@
     "static/media/proyecto-11-com.png": "/MyPortfolio/static/media/proyecto-11-com.f62a13d09a93136aaab3.png",
     "static/media/proyecto-6-com.png": "/MyPortfolio/static/media/proyecto-6-com.793e6636e20b75e30b41.png",
     "static/media/me.jpg": "/MyPortfolio/static/media/me.b1932a2f0cd333d7b5dc.jpg",
-    "static/media/cv.pdf": "/MyPortfolio/static/media/cv.a61611ec9ccf8732b95f.pdf",
     "static/media/proyecto-13-com.png": "/MyPortfolio/static/media/proyecto-13-com.798c1312c93abea278de.png",
+    "static/media/cv.pdf": "/MyPortfolio/static/media/cv.97b8f3499b81ec0567ca.pdf",
     "static/media/proyecto-app-18.png": "/MyPortfolio/static/media/proyecto-app-18.c16988d3951b4def8074.png",
     "static/media/proyecto-3.jpg": "/MyPortfolio/static/media/proyecto-3.7168325618a89d9a0f5c.jpg",
     "static/media/proyecto-11.jpg": "/MyPortfolio/static/media/proyecto-11.4c3291d634e3db8ea0d9.jpg",
@@ -63,11 +63,11 @@
     "static/media/proyecto-app-2.jpg": "/MyPortfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.fc25fe1a.css.map": "/MyPortfolio/static/css/main.fc25fe1a.css.map",
-    "main.26631cfe.js.map": "/MyPortfolio/static/js/main.26631cfe.js.map",
+    "main.b4975a91.js.map": "/MyPortfolio/static/js/main.b4975a91.js.map",
     "787.ea8d651f.chunk.js.map": "/MyPortfolio/static/js/787.ea8d651f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc25fe1a.css",
-    "static/js/main.26631cfe.js"
+    "static/js/main.b4975a91.js"
   ]
 }
